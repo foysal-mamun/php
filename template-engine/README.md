@@ -26,13 +26,13 @@ git clone https://github.com/foysal-mamun/php
 
 Then keep only "template-engine" and remove all other directories.
 
-```
+``` php
 require_once __DIR__ . '/src/TemplateEngine/CustomTemplateEngine.php';
 ```
 
 ## Usage
 
-```
+``` php
 use TemplateEngine\CustomTemplateEngine;
 
 $eng = new CustomTemplateEngine();
@@ -44,7 +44,7 @@ echo $eng->render("../views/test.html", array(
 ```
 
 or
-```
+``` php
 use TemplateEngine\CustomTemplateEngine;
 
 $eng = new CustomTemplateEngine();
